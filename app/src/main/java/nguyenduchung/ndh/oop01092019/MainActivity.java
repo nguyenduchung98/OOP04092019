@@ -10,5 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Hocvien nguyenduchung =new Hocvien("Nguyen Duc Hung","21");
+        Hocvien nguyenduchuy =new Hocvien("Nguyen Duc Huy","19");
     }
 }
