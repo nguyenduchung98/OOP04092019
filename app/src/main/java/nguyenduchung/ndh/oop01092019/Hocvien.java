@@ -10,10 +10,14 @@ public class Hocvien {
     private String ten;
     private String tuoi;
     //3: cau truc
-//    public Hocvien(String ten,String tuoi){
-//        this.ten = ten;
-//        this.tuoi = tuoi;
-//    }
+    public Hocvien(){
+
+    }
+
+    public Hocvien(String ten,String tuoi){
+        this.ten = ten;
+        this.tuoi = tuoi;
+    }
     //2: Hanh vi
     public void setTen(String ten){
         if(ten.matches("[0-9]+")){
